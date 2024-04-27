@@ -109,3 +109,14 @@ export const fields = [
   "Film Making",
   "Acting",
 ];
+
+export const students = {
+  heading: "List of Students",
+  colHeading: ["Email", "Names", "Status"],
+  data: [
+    ["vsanya588@gmail.com", "Sanya Verma", "Accepted"],
+    ["harshaggarwal060@gmail.com", "Harsh Aggarwal", "Pending"],
+    ["xyz@gmail.com", "XYZ", "Accepted"],
+    ["abc@gmail.com", "ABC", "Rejected"],
+  ],
+};

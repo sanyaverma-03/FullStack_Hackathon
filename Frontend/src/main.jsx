@@ -11,6 +11,7 @@ import Verify from "./components/pages/verify";
 import StudentDashboard from "./components/pages/studentDashboard";
 import CheckStatus from "./components/pages/checkStatus";
 import SubmitVerify from "./components/pages/submitVerification";
+import AdminDashboard from "./components/pages/adminDashboard";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
   {
     path: "/submitverify",
     element: <SubmitVerify/>,
+  },
+  {
+    path: "/adminDashboard",
+    element: <AdminDashboard/>,
   },
 ]);
 
