@@ -1,0 +1,28 @@
+.VerContainer {
+    padding: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .width50{
+    width: 50%;
+  }
+  .flex{
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .flex{
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .width50{
+      width: 100%;
+    }
+    
+  }

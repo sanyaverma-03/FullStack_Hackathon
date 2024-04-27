@@ -8,6 +8,9 @@ import About from "./components/pages/about";
 import Courses from "./components/pages/courses";
 import Contact from "./components/pages/contact";
 import Verify from "./components/pages/verify";
+import StudentDashboard from "./components/pages/studentDashboard";
+import CheckStatus from "./components/pages/checkStatus";
+import SubmitVerify from "./components/pages/submitVerification";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -48,6 +51,21 @@ const router = createBrowserRouter([
   {
     path: "/verify",
     element: <Verify />,
+  },
+
+  {
+    path: "/studentDashboard",
+    element: <StudentDashboard />,
+  },
+
+  {
+    path: "/checkstatus",
+    element: <CheckStatus/>,
+  },
+
+  {
+    path: "/submitverify",
+    element: <SubmitVerify/>,
   },
 ]);
 
