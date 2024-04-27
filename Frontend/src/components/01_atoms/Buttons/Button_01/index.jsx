@@ -1,11 +1,18 @@
-import React from 'react';
+import styles from "./index.module.css";
 
-const Button1 = () => {
+const Button1 = ({ text, style, onClick }) => {
   return (
-    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      Click me
+    <button
+      className={styles.btn1}
+      onClick={onClick}
+      style={{
+        ...style,
+      }}
+    >
+      {text}
     </button>
   );
-}
+};
 
 export default Button1;
+

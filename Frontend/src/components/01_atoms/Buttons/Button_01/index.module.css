@@ -1,0 +1,14 @@
+.btn1 {
+    width: 8.75rem;
+    height: 2.75rem;
+    color: white;
+    background-color: #173d7a;
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size: 0.9rem;
+  }
+  
+  .btn1:hover {
+    cursor: pointer;
+  }
+  
